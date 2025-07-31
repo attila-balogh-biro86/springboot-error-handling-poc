@@ -26,3 +26,8 @@ resilience4j:
       externalService:
         maxAttempts: 3
         waitDuration: 1s
+
+logging:
+  structured:
+    format:
+      console: ecs
